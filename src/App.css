@@ -1,8 +1,17 @@
+
 .mainContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+	transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 64px;
+  margin-top: 0px;
+  background: linear-gradient(#13B2DA, #FDBDDC);
+  font-family: 'Amatic SC', cursive;
 }
 
 .dataContainer {
@@ -10,18 +19,21 @@
   flex-direction: column;
   justify-content: center;
   max-width: 600px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .header {
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  font-family: 'Amatic SC', cursive;
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: black;
   margin-top: 16px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .waveButton {
@@ -30,5 +42,5 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+  font-family: 'Amatic SC', cursive;
 }
