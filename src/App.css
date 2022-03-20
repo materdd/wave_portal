@@ -10,7 +10,7 @@
   justify-content: center;
   width: 100%;
   margin-top: 0px;
-  background: linear-gradient(#13B2DA, #FDBDDC);
+  background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
   font-family: 'Amatic SC', cursive;
 }
 
@@ -43,4 +43,9 @@
   border: 0;
   border-radius: 5px;
   font-family: 'Amatic SC', cursive;
+}
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
 }
